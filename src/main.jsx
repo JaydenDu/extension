@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom/client'
 // import '@/content'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <ConfigProvider locale={zhCN}>
+    <ConfigProvider >
         <Popup />
     </ConfigProvider>
 )
