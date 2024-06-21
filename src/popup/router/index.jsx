@@ -1,8 +1,7 @@
-import { createHashRouter, Navigate } from 'react-router-dom'
-import Login from '@/popup/pages/login'
-import Entry from '@/popup/pages/entry'
-import Home from '@/popup/pages/home'
 import Account from '@/popup/pages/account'
+import Entry from '@/popup/pages/entry'
+import Login from '@/popup/pages/login'
+import { createHashRouter, Navigate } from 'react-router-dom'
 
 // 全局路由
 export const globalRouters = createHashRouter([
@@ -22,7 +21,7 @@ export const globalRouters = createHashRouter([
             {
                 // 精确匹配"/home"，跳转Home页面
                 path: '/home',
-                element: <Home />,
+                
             },
             {
                 // 精确匹配"/account"，跳转Account页面
