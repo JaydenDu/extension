@@ -1,5 +1,5 @@
-import { Outlet, useLocation } from 'react-router-dom'
 import Nav from '@/popup/components/nav'
+import { Outlet, useLocation } from 'react-router-dom'
 import './entry.styl'
 
 function Entry() {
@@ -9,7 +9,7 @@ function Entry() {
     return (
         <div className="M-entry">
             <Nav location={location} />
-            <div className="main-container">
+            <div className="main-container" style={{ width: '500px', height: '300px'}}>
                 <Outlet />
             </div>
         </div>
